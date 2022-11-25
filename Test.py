@@ -9,9 +9,10 @@ class TestSum(unittest.TestCase):
         """
         Test case to division two numbers
         """
-        data = [20, 30]
+        a = 30
+        b = 15
         result = division(data)
-        self.assertEqual(result, 500)
+        self.assertEqual(result, 20)
 
 if __name__ == '__main__':
     unittest.main()

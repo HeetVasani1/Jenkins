@@ -11,7 +11,7 @@ class TestSum(unittest.TestCase):
         """
         a = 30
         b = 15
-        result = division(data)
+        result = division(a,b)
         self.assertEqual(result, 20)
 
 if __name__ == '__main__':

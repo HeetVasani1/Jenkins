@@ -2,4 +2,5 @@
 # Source code for summation of two numbers
 
 def division(a,b):
-    return a/b
+    c = a/b
+    return c
